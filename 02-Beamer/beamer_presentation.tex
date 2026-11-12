@@ -1,0 +1,90 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{dolphin}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize item}[circle]
+\setbeamertemplate{itemize subitem}[triangle]
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\title[Beamer with LaTeX]{Beamer: Creating Presentations with LaTeX}
+\subtitle{A Short Introduction}
+\author{Ridhima Garg}
+\institute{2025UCP1648}
+\date{Technical Writing }
+
+\begin{document}
+
+% Slide 1: Title
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Slide 2: Introduction
+\begin{frame}{What is Beamer?}
+    \begin{block}{Definition}
+        Beamer is a LaTeX document class used to create structured, high-quality PDF presentations.
+    \end{block}
+
+    \vspace{0.25cm}
+    \begin{itemize}
+        \item Slides are created using the \texttt{frame} environment.
+        \item Content is written as LaTeX source code.
+        \item Mathematical expressions, tables, and figures can be included.
+        \item The final presentation is compiled into a PDF.
+    \end{itemize}
+\end{frame}
+
+% Slide 3: Core building blocks
+\begin{frame}{The Building Blocks of a Beamer Presentation}
+    \begin{columns}[T,onlytextwidth]
+        \column{0.53\textwidth}
+        \begin{block}{Document setup}
+            \small
+            \texttt{\textbackslash documentclass\{beamer\}}\\[0.12cm]
+            \texttt{\textbackslash usetheme\{Madrid\}}\\[0.12cm]
+            \texttt{\textbackslash title\{...\}}\\
+            \texttt{\textbackslash author\{...\}}
+        \end{block}
+        \begin{block}{Slide content}
+            \small
+            \texttt{\textbackslash begin\{frame\}}\\
+            \texttt{\textbackslash end\{frame\}}
+        \end{block}
+
+        \column{0.42\textwidth}
+        \begin{exampleblock}{Example equation}
+            \[
+                E = mc^2
+            \]
+            \centering
+            \small Mathematical notation works naturally in Beamer.
+        \end{exampleblock}
+        \begin{alertblock}{Remember}
+            A frame usually represents one slide.
+        \end{alertblock}
+    \end{columns}
+\end{frame}
+
+% Slide 4: Workflow and conclusion
+\begin{frame}{From Source Code to Slides}
+    \begin{enumerate}
+        \item Choose the Beamer document class and a theme.
+        \item Add presentation details such as title and author.
+        \item Create frames and organize content with lists or blocks.
+        \item Compile the \texttt{.tex} file to generate a PDF.
+    \end{enumerate}
+
+    \vspace{0.35cm}
+    \begin{block}{Key takeaway}
+        Beamer combines the precision of LaTeX with a structured way to design academic presentations.
+    \end{block}
+
+    \vfill
+    \centering
+    \Large\textbf{Thank You!}
+\end{frame}
+
+\end{document}
