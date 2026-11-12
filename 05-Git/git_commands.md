@@ -1,12 +1,12 @@
 # Git Command Quick Reference
 
-Commands below are based on the TW lab Git lecture. Replace placeholders such as `REPOSITORY_URL`, `COMMIT_ID`, `filename` and example names with your own values.
+Commands below are based on the TW Git lecture.
 
 | Purpose | Command |
 |---|---|
 | Check version | `git --version` |
-| Set author name | `git config --global user.name "Your Name"` |
-| Set author email | `git config --global user.email "you@example.com"` |
+| Set author name | `git config --global user.name "Ridhima Garg"` |
+| Set author email | `git config --global user.email "coderidhimagarg0915@gmail.com"` |
 | View configuration | `git config --global --list` |
 | Initialize repository | `git init` |
 | Check status | `git status` |
