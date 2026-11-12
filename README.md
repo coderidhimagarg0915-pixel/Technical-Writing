@@ -1,32 +1,25 @@
-# Technical Writing — Course Documentation
+# Technical Writing course
 
-> A structured collection of notes, examples, and practical demonstrations covering the tools and concepts studied in the Technical Writing course.
+A structured collection of documentation, examples, and practical work covering the tools and concepts studied in the Technical Writing course.
 
-## About This Repository
+## About the Repository
 
-This repository documents the concepts, features, and practical applications of the tools covered in our Technical Writing course.
+This repository serves as a consolidated record of the concepts, features, and practical applications explored throughout the Technical Writing course.
 
-The objective is to maintain organized and accessible documentation while demonstrating the practical use of each tool through examples and exercises.
+It brings together documentation on technical document preparation, presentation creation, source-code documentation, collaborative editing, and version control.
+
+The goal is to maintain an organized, accessible, and useful learning resource while demonstrating the practical application of the tools covered in the laboratory.
 
 ## Topics Covered
 
-### 1. LaTeX
-Introduction to LaTeX, document structure, formatting, mathematical expressions, and technical document preparation.
-
-### 2. Beamer
-Creating academic presentations using LaTeX Beamer, including slide structure, themes, formatting, and presentation elements.
-
-### 3. Doxygen
-Understanding source-code documentation and generating structured documentation for programming projects.
-
-### 4. Google Docs
-Exploring document creation, formatting, collaboration, and other useful document-editing features.
-
-### 5. Git
-Understanding version control and practising repository management, commits, branching, merging, and other Git commands.
-
-### 6. GitHub
-Learning remote repository management, collaboration workflows, and sharing and maintaining projects using GitHub.
+| No. | Topic | Description |
+|:---:|---|---|
+| 01 | [LaTeX](01-LaTeX/README.md) | Document structure, formatting, mathematical expressions, tables, figures, and technical writing. |
+| 02 | [Beamer](02-Beamer/README.md) | Creating academic presentations using LaTeX Beamer, including frames, themes, and presentation elements. |
+| 03 | [Doxygen](03-Doxygen/README.md) | Source-code documentation and automatic generation of software reference documentation. |
+| 04 | [Google Docs](04-Google-Docs/README.md) | Document creation, formatting, collaboration, comments, and version history. |
+| 05 | [Git](05-Git/README.md) | Version control, repository management, commits, branching, merging, and collaboration workflows. |
+| 06 | [GitHub](06-GitHub/README.md) | Remote repository management, Pull Requests, code reviews, and collaborative development. |
 
 ## Repository Structure
 
@@ -34,29 +27,53 @@ Learning remote repository management, collaboration workflows, and sharing and 
 Technical-Writing/
 │
 ├── 01-LaTeX/
-├── 02-Beamer/
-├── 03-Doxygen/
-├── 04-Google-Docs/
-├── 05-Git/
-├── 06-GitHub/
+│   ├── README.md
+│   └── Ridhima_resume.tex
 │
-├── Practical-Work/
+├── 02-Beamer/
+│   ├── README.md
+│   └── beamer_presentation.tex
+│
+├── 03-Doxygen/
+│   └── README.md
+│
+├── 04-Google-Docs/
+│   └── README.md
+│
+├── 05-Git/
+│   ├── README.md
+│   └── git_commands.md
+│
+├── 06-GitHub/
+│   └── README.md
+│
 └── README.md
 ```
 
-## What Each Topic Contains
+## Documentation Approach
 
-Each topic is organized to make its documentation easy to understand and use.
+Each topic is organized around the following aspects, wherever applicable:
 
-- **Concepts:** Important definitions and explanations.
-- **Features:** Key functionalities and their purpose.
-- **Examples:** Relevant examples demonstrating the concepts.
-- **Practical Work:** Step-by-step demonstrations and exercises.
-- **References:** Useful learning resources, where applicable.
+- **Concepts:** Fundamental definitions and explanations.
+- **Features:** Important functionalities and their applications.
+- **Examples:** Relevant examples illustrating the concepts.
+- **Practical Work:** Exercises and demonstrations based on laboratory learning.
+- **References:** Official documentation and additional learning resources.
 
-## Purpose
+## Learning Objectives
 
-This repository serves as a consolidated learning resource for the Technical Writing laboratory. It brings together theoretical understanding and practical demonstrations in one organized location.
+Through this repository, the laboratory work aims to develop an understanding of:
+
+- Preparing structured technical documents using LaTeX.
+- Designing academic presentations using Beamer.
+- Generating software documentation using Doxygen.
+- Creating and collaboratively editing documents using Google Docs.
+- Managing project versions using Git.
+- Hosting repositories and collaborating through GitHub.
+
+## Acknowledgement
+
+The documentation is based on the concepts, practical exercises, and lecture material covered in the Technical Writing Laboratory.
 
 ---
 
