@@ -1,0 +1,129 @@
+\documentclass[10pt,a4paper]{article}
+
+% ---------- Packages ----------
+\usepackage[a4paper,margin=0.62in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{microtype}
+
+% ---------- Global formatting ----------
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.25em, nosep, topsep=2pt}
+\titleformat{\section}
+  {\large\bfseries\uppercase}
+  {}{0pt}{}
+  [\vspace{-3pt}\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+\newcommand{\resumeSubheading}[4]{%
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{#1} & \textit{#2}\\
+    \textit{#3} & #4
+  \end{tabularx}\vspace{-2pt}
+}
+\newcommand{\projectHeading}[2]{%
+  \textbf{#1}\hfill \textit{#2}\\[-2pt]
+}
+
+\begin{document}
+
+% ---------- Header ----------
+\begin{center}
+    {\LARGE\bfseries Ridhima Garg}\\[3pt]
+    B.Tech, Computer Science and Engineering \;|\; MNIT Jaipur\\[3pt]
+    \href{mailto:ridhimagarg0915@gmail.com}{ridhimagarg0915@gmail.com}
+    \;|\;
+    \href{https://linkedin.com/in/ridhima-garg-0a3725369}{LinkedIn}
+    \;|\;
+    \href{https://github.com/coderidhimagarg0915-pixel}{GitHub}
+\end{center}
+
+% ---------- Objective ----------
+\section{Career Objective}
+Second-year Computer Science undergraduate seeking a software development internship to apply data structures and algorithms, full-stack web development, and AI/ML skills to real-world projects while growing in a collaborative engineering team.
+
+% ---------- Education ----------
+\section{Education}
+\resumeSubheading
+  {Malaviya National Institute of Technology, Jaipur}
+  {2025--2029}
+  {B.Tech, Computer Science and Engineering}
+  {CGPA: 8.84/10}
+
+\resumeSubheading
+  {Prerna Senior Secondary School, Sirsa}
+  {2025}
+  {Class XII, CBSE}
+  {96\% \; (School Topper)}
+
+\resumeSubheading
+  {St. Xavier's Senior Secondary School, Sirsa}
+  {2023}
+  {Class X, CBSE}
+  {98.4\% \; (School Topper)}
+
+% ---------- Skills ----------
+\section{Technical Skills}
+\textbf{Languages:} C, C++, Python\\
+\textbf{Web \& Frameworks:} HTML, CSS, JavaScript, TypeScript, MERN stack\\
+\textbf{AI / Data:} LangChain, LangGraph, Gemini, Retrieval-Augmented Generation (RAG)\\
+\textbf{Tools:} Git, GitHub, Vercel\\
+\textbf{Core CS:} Data Structures \& Algorithms, Discrete Mathematics, OOAD, Data Communication
+
+% ---------- Soft Skills ----------
+\section{Soft Skills}
+Teamwork and collaboration, public speaking, argumentation, critical thinking, written communication, problem-solving, accountability.
+
+% ---------- Projects ----------
+\section{Academic \& Personal Projects}
+
+\projectHeading
+  {Console Club Website}
+  {React, TypeScript, Supabase, Vercel}
+\begin{itemize}
+    \item Developed key parts of the coding club's website in a collaborative team, sharing implementation and deployment responsibilities.
+    \item \href{https://console.net.in}{Project website: console.net.in}
+\end{itemize}
+
+\projectHeading
+  {Smarter Blinkit -- AI-Powered Grocery Assistant}
+  {TypeScript}
+\begin{itemize}
+    \item Built a grocery-shopping application that uses AI to make product discovery and shopping decisions more convenient.
+\end{itemize}
+\projectHeading
+  {AI Agent Pipeline}
+  {LangChain, LangGraph, Gemini, FAISS}
+\begin{itemize}
+    \item Prototyped a multi-agent workflow using retrieval-augmented generation (RAG), with content-generation and email agents.
+\end{itemize}
+
+% ---------- Experience ----------
+\section{Experience \& Positions of Responsibility}
+
+\resumeSubheading
+  {Core Member, CONSOLE -- Coding \& Development Club, MNIT Jaipur}
+  {Sep 2025--Present}
+  {}
+  {}
+\begin{itemize}
+    \item Collaborated with teammates to design, build, and deliver the club website.
+\end{itemize}
+
+\resumeSubheading
+  {Member, Debating Club, MNIT Jaipur}
+  {Aug 2025--Aug 2026}
+  {}
+  {}
+\begin{itemize}
+    \item Strengthened public-speaking, argumentation, and critical-thinking skills through structured debates.
+\end{itemize}
+
+\end{document}
